@@ -1,0 +1,247 @@
+/*utility*/
+.hover{
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+.invert {
+    filter: invert(1);
+}
+
+/*separate components*/
+/*home*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: grey;
+    gap: 413px;
+    
+}
+
+header img{
+    width: 200px;
+    height: 115px;    
+}
+
+header p {
+    text-align: center;
+}
+
+.size{
+    width: 200px; 
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav a{
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.banner {
+    color: black;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.section p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.flex {
+    display: flex;
+    justify-content: center; /* Horizontally centers the buttons */
+    align-items: center; /* Vertically centers the buttons */
+    gap: 20px; /* Adds space between the buttons */
+}
+
+.hover {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hover:hover {
+    background-color: #45a049;
+}
+
+
+.schedule {
+    display: flex;
+    justify-content: center; /* Horizontally centers the buttons */
+    gap: 20px;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+.schedule .card {
+    padding: 20px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.schedule .card h3 {
+    margin-top: 0;
+}
+
+.footer {
+    background-color: #333;/*#333*/
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+.footer img{
+    width: 25px;
+    height: 25px;
+}
+.footimg{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .schedule {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .schedule {
+        grid-template-columns: 1fr;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    .section h2 {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hover {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .schedule .card {
+        padding: 15px;
+    }
+}
+
+/*prathamcode*/
+.heading{
+    background-color: green;
+    text-align: center;
+    padding: 50px;
+}
+
+.format{
+    background-color: blue;
+    width: 67%;
+    height: 30vw;
+}
+.format h2{
+    text-align: center;
+}
+
+.rules {
+    background-color: aqua;
+    width: 67%;
+    height: 30vw;
+    margin-left: auto; /* This will push the div to the right */
+}
+.rules h2{
+    text-align: center;
+}
+
+.winners{
+    text-align: center;
+}
+
+
+.cardvertical {
+    display: inline-block; 
+    background-color:grey;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 200px; 
+    margin: 10px; 
+    vertical-align: top;}
+
+
+.cardvertical img {
+    width: 90px;
+    width: 100%;
+    object-fit: contain;    
+}
+    
+.registeration{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+ .registeration button{
+    width: 250px;
+    height: 100px;
+ }
