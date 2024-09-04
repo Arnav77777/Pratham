@@ -317,6 +317,12 @@ nav a:hover {
     padding: 50px;
 }
 
+.heading1{
+    background-color: rgb(62, 62, 184);
+    text-align: center;
+    padding: 50px;
+}
+
 .format{
     width: 50%;
     height:0px;
