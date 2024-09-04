@@ -6,6 +6,9 @@
 .invert {
     filter: invert(1);
 }
+.sep{
+    padding: 5vw;
+}
 
 .glass{
     width: 100%;
@@ -316,20 +319,15 @@ nav a:hover {
 
 .format{
     width: 50%;
-    height: 10vw;
-}
-.format h2{
-    text-align: center;
+    height:0px;
 }
 
 .rules {
     width: 50%;
-    height: 10vw;
+    height:150px;
     margin-left: auto; /* This will push the div to the right */
 }
-.rules h2{
-    text-align: center;
-}
+
 
 .winners{
     text-align: center;
