@@ -37,7 +37,7 @@
     height: 100%;
   }
   .btn-6:hover{
-    background: transparent;
+    background:#5db802 ;
   }
   .btn-6:before,
   .btn-6:after {
@@ -56,7 +56,7 @@
   .btn-6:after {
     left: 0;
     bottom: 0;
-    transition: all 500ms ease;
+    transition: all 5ms ease;
   }
   .btn-6:hover:before {
     transition: all 500ms ease;
@@ -117,14 +117,14 @@ body{
 }
 
 header{
-    display:inline
-    background-color: white;
-    gap: 413px;
+    display:flex;
+    background-color:transparent;
+    gap:413px;
     
 }
 
 header img{
-    align-content: center;
+    align-content: left;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -315,7 +315,7 @@ nav a:hover {
 }
 
 .format{
-    width: 45%;
+    width: 50%;
     height: 10vw;
 }
 .format h2{
@@ -323,7 +323,7 @@ nav a:hover {
 }
 
 .rules {
-    width: 45%;
+    width: 50%;
     height: 10vw;
     margin-left: auto; /* This will push the div to the right */
 }
